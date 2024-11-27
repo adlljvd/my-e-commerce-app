@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: "Inter", sans-serif, Arial, Helvetica, sans-serif;
+  }
+}
+
+/* Scoped styles for arrows */
+.custom-swiper .swiper-button-next,
+.custom-swiper .swiper-button-prev {
+  color: #ff4500;
+}
+
+.custom-swiper .swiper-button-next:hover,
+.custom-swiper .swiper-button-prev:hover {
+  color: #ff6347;
+}
+
+/* Scoped styles for pagination dots */
+.custom-swiper .swiper-pagination-bullet {
+  background: #ff4500;
+}
+
+.custom-swiper .swiper-pagination-bullet-active {
+  background: #ff6347;
+}
